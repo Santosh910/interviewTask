@@ -33,7 +33,7 @@ const Register = () => {
                 <label>Name:</label><br />
                 <input type="text" name='name' onChange={handleChange}/> <br />
                 <label>Email:</label><br />
-                <input type="text" name='email' onChange={handleChange} /><br />
+                <input type="email" name='email' onChange={handleChange} /><br />
                 <label>Password:</label><br />
                 <input type="password" name='password' onChange={handleChange}  /> <br />
                 <input type="submit" value="register here" /><br />
